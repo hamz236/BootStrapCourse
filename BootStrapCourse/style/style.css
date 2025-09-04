@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+     font-family: "Cairo", sans-serif;
+}
+/* navbarKC */
+.navbar{
+    background-color: #017dbf!important;;
+    
+}
+/* carousel */
+.carousel-item img{
+    height: 100vh;
+    
+}
+
+.carousel-caption{
+    background-color: rgba(151,194,224,.5);
+    border-radius: 20px;
+    bottom: 4rem;
+}
+.carousel-caption:hover{
+    background-color: rgba(48,97,232,.5);
+    transition: ease,4s;
+}
+.carousel-indicators button{
+    height: 20px!important;
+    width: 20px!important;
+    border-radius: 50%!important;
+    background-color: #017dbf!important;
+}
+.carousel-caption{
+    padding: 50px;
+}
+.carousel-caption h2{
+   font-size: 45px;
+   margin-bottom: 20px;
+}
+.carousel-caption p{
+    font-size: 20px;
+}
+.carousel-indicators button:hover{
+    background-color: crimson!important;
+    transition: ease,1s;
+}
+/* contact */
+.contact{
+    height: 60vh;
+    background: url(../images/flat-lay-composition-flowers-laptop.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.inputcontact{
+    border-radius: 0px!important;
+   height: 40px;
+   
+}
+
+.contact button{
+      width: 150px!important;
+      border-radius: 20px 0px 0px 20px!important;
+        height: 40px;
+}
+/* bestselling */
+.bestselling img:hover{
+    transform: rotate(5deg)scale(1.1);
+    transition: ease all 1s ;
+  cursor: pointer;
+}
+/* contract */
+.contract h5{
+    color: crimson;
+}
+.accordion .accordion-button{
+    background-color: #017dbf!important;
+    color: white!important;
+    text-align: center!important;
+    display: flex;
+    justify-content: center;
+}
+.accordion-button::after{
+    display: none;
+}
+/* services */
+.services{
+    margin-top: 150px!important;
+}
+/* offcanvas */
+.offcan-img {
+    width: 250px!important;
+    height: 300px!important;
+}
+.offcan-img:hover{
+    transform: skew(-5deg);
+    transition: ease all,1s;
+    cursor: pointer;
+}
+.offcan-price{
+    color: #017dbf;
+    font-size: 20px;
+}
+.offcan-header{
+ 
+    color: crimson!important;
+}
+
+/* products */
+.text-header{
+    border-bottom: crimson solid 5px;
+}
+.btn-primary{
+    background-color: #017dbf;
+}
+.btn-primary:hover{
+    background-color: crimson;
+    border-radius: 15px;
+    transition: 1s ease all;
+
+}
+.card img{
+    height: 300px;
+    width: 100%;
+}
+.card img:hover{
+    transform: scale(1.1);
+    transition: ease all 1s;
+    cursor: pointer;
+}
+/* Footer */
+footer{
+    background-color: #017dbf!important;
+    color: white;
+   
+}
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #017dbf; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+/* cards */
+
+.myicon{
+    color:#017dbf;
+    width: 35px;
+    height: 35px;
+}
+.btn-dark:hover{
+    background-color: crimson!important;
+    border-radius: 20px;
+    transition: ease,1s;
+}
+.blue{    
+    color: #017dbf;
+  }
+  .bluecimon{
+        color: #017dbf!important;
+
+  }
+.bluecimon:hover{
+        color: crimson!important;
+        transition: ease all 1s;
+cursor: pointer;
+  }
+  
+
+/* Filter buttons active state */
+.filter-button-group .btn.active {
+    background-color: crimson !important;
+    border-color: crimson !important;
+    color: white !important;
+}
+
+.filter-button-group .btn:not(.active):hover {
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+    color: white !important;
+}
+
+/* Smooth transitions for product cards */
+.card {
+    transition: all 0.3s ease;
+}
+
+.card.isotope-hidden {
+    opacity: 0;
+    transform: scale(0.8);
+}
+
+.card:not(.isotope-hidden) {
+    opacity: 1;
+    transform: scale(1);
+}
+
